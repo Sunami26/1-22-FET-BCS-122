@@ -1,0 +1,278 @@
+.dashboard-container {
+    padding: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff; /* White background for clarity */
+    color: #1a1a1a; /* Dark text for readability */
+  }
+  
+  .dashboard-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    text-align: center;
+    color: #0f172a; /* Deep slate */
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .section-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #1e293b; /* Slightly darker title */
+    border-bottom: 2px solid #cbd5e1; /* Light blue-gray */
+    padding-bottom: 8px;
+  }
+  
+  .card-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 16px;
+  }
+  
+  .card {
+    background-color: #f8fafc; /* Light background inside card */
+    border: 1px solid #e2e8f0; /* Soft border */
+    padding: 16px;
+    border-radius: 8px;
+    color: #111827; /* Very dark slate for text */
+    transition: box-shadow 0.2s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+
+  /* Already covered most styles earlier — keep this same file */
+.card strong {
+    color: #0f172a;
+  }
+
+  /* Navbar Styles */
+.navbar {
+    background-color: #1e293b;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .navbar-title {
+    font-size: 20px;
+  }
+  
+  .navbar-author {
+    font-size: 16px;
+    font-style: italic;
+    opacity: 0.9;
+  }
+
+  /* General Styling */
+.dashboard-container {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .dashboard-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #0f172a;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .card-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .card strong {
+    color: #0f172a;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    background-color: #1e293b;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .navbar-title {
+    font-size: 20px;
+  }
+  
+  .navbar-author {
+    font-size: 16px;
+    font-style: italic;
+    opacity: 0.9;
+  }
+  
+  /* Responsive Design */
+  
+  /* Tablets (Portrait) */
+  @media screen and (max-width: 768px) {
+    .dashboard-title {
+      font-size: 1.5rem;
+    }
+  
+    .section-title {
+      font-size: 1.25rem;
+    }
+  
+    .card-list {
+      padding-left: 20px;
+    }
+  
+    .card {
+      font-size: 14px;
+      padding: 12px;
+    }
+  
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  
+  /* Mobile Devices */
+  @media screen and (max-width: 480px) {
+    .navbar {
+      padding: 10px 20px;
+    }
+  
+    .navbar-title {
+      font-size: 18px;
+    }
+  
+    .navbar-author {
+      font-size: 14px;
+    }
+  
+    .dashboard-title {
+      font-size: 1.25rem;
+    }
+  
+    .section-title {
+      font-size: 1rem;
+    }
+  
+    .card {
+      font-size: 13px;
+      padding: 10px;
+    }
+  
+    .card-list {
+      padding-left: 10px;
+    }
+  
+    .section-title, .card-list {
+      margin: 10px 0;
+    }
+  }
+
+  /* General Styles */
+.add-post-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .add-post-btn {
+    padding: 10px 15px;
+    background-color: #0f172a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .add-post-btn:hover {
+    background-color: #1e293b;
+  }
+  
+  .remove-post-btn {
+    padding: 5px 10px;
+    background-color: #e11d48;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .remove-post-btn:hover {
+    background-color: #9f1239;
+  }
+  
+  /* Adjustments for smaller screens */
+  @media screen and (max-width: 768px) {
+    .add-post-input {
+      font-size: 0.9rem;
+    }
+  
+    .add-post-btn, .remove-post-btn {
+      font-size: 0.9rem;
+    }
+  }
+
+  /* Pagination Styles */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination-btn {
+    padding: 8px 16px;
+    background-color: #0f172a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  .pagination-btn:hover {
+    background-color: #1e293b;
+  }
+  
+  .pagination-btn:disabled {
+    background-color: #e5e7eb;
+    cursor: not-allowed;
+  }
+  
